@@ -60,6 +60,50 @@ function drawCircle(x, y, radius, color) {
   }
 }
 
+function drawLongLine(x, y, color) {
+    drawPixel(x, y, color);
+    drawPixel(x+1, y, color);
+    drawPixel(x+2, y, color);
+    drawPixel(x+3, y, color);
+    drawPixel(x+4, y, color);
+    drawPixel(x+5, y, color);
+    drawPixel(x+6, y, color);
+    drawPixel(x+7, y, color);
+    drawPixel(x+8, y, color);
+    drawPixel(x+9, y, color);
+    drawPixel(x+10, y, color);
+    drawPixel(x+11, y, color);
+    drawPixel(x+12, y, color);
+    drawPixel(x+13, y, color);
+    drawPixel(x+14, y, color);
+    drawPixel(x+15, y, color);
+    drawPixel(x+16, y, color);
+    drawPixel(x+17, y, color);
+
+}
+
+function drawLongVerticalLine(x, y, color) {
+  drawPixel(x, y, color);
+  drawPixel(x, y+1, color);
+  drawPixel(x, y+2, color);
+  drawPixel(x, y+3, color);
+  drawPixel(x, y+4, color);
+  drawPixel(x, y+5, color);
+  drawPixel(x, y+6, color);
+  drawPixel(x, y+7, color);
+  drawPixel(x, y+8, color);
+  drawPixel(x, y+9, color);
+  drawPixel(x, y+10, color);
+  drawPixel(x, y+11, color);
+  drawPixel(x, y+12, color);
+  drawPixel(x, y+13, color);
+  drawPixel(x, y+14, color);
+  drawPixel(x, y+15, color);
+  drawPixel(x, y+16, color);
+  drawPixel(x, y+17, color);
+
+}
+
 
 clearScreen("black");
 

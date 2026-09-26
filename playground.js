@@ -27,6 +27,12 @@ drawCircle(69, 55, 10, "green");
 drawHorizontalLine(65,60, "green");
 
 
+//rectangle
+
+drawLongLine(10, 30, "orange");
+drawLongVerticalLine(10, 12, "orange");
+drawLongLine(10, 11, "orange");
+drawLongVerticalLine(27, 12, "orange");
 
 
 console.log("Hello, this is a test");
